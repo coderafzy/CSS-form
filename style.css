@@ -17,23 +17,27 @@ h1{
 form{
     background:linear-gradient(109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%);
     margin: 10px auto;
-  display: grid;
-  border: 2px solid black;
-  border-radius: 10px;
-    
+    display: grid;
+    border: 2px solid black;
+    border-radius: 10px; 
     height: 560px;
     width: 485px;
+}
+.abc{
+    font-size: 15px;
+    color: red;
+    text-transform: capitalize;
+    margin-left: 32px;
+    font-family: cursive;
 }
 .input-box{
     width: 400px;
     height: 20px;
-    margin: 10px auto;
+    margin: 3px auto;
     padding: 10px 10px;
     border: 2px solid black;
     border-radius: 5px;
-    font-size: 15px;
-    
-   
+    font-size: 15px;   
 }
 .user-details{
     text-transform: uppercase;
@@ -73,7 +77,28 @@ form{
     color: rgb(4, 4, 4);
     margin: 12px 0px 0px 30px;
     letter-spacing: 2px;
-
-
+}
+#alert{
+    color: red;
+    font-size: 10px ;
+    padding: 7px;
+}
+ 
+@media only screen and (max-width: 600px) {
+    form{
+        width: 391px;
+    }
+    .input-box{
+        width: 345px;
+    }
+    .user-details{
+        margin: auto 15px;
+    }
+    .user-details1{
+        margin: auto 15px;
+    }
+    .btn{
+        width: 260px;
+    }
 }
  
